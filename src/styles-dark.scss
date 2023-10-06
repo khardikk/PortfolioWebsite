@@ -7,7 +7,34 @@ body {
   transition: background 0.2s linear;
 }
 
-#section-title dark-blue-text {
+/* Add these styles to your CSS file */
+.toggle-container {
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    z-index: 999; /* Set a high z-index to ensure it's above other elements */
+  }
+  
+  .checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Add other styles as needed */
+  
+
+body.dark #projects .section-title {
   color: #fff;
 } 
 body.dark #hero,
