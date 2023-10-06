@@ -17,7 +17,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    
     <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="styles-dark.scss" id="dark-style" disabled>
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -25,6 +27,8 @@
 
     <!-- Todo: remove the below script once you finish your portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/js/fontawesome.min.js"></script>
+
   </head>
 
   <body>
@@ -33,6 +37,16 @@
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
+        <div>
+          
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="checkbox-label">
+            <i class="fas fa-moon">&#x1F319;</i>
+            <i class="fas fa-sun">&#x2600;</i>
+            <span class="ball"></span>
+          </label>
+        </div>
+
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Hardikk Kamboj</span>
           <br />
